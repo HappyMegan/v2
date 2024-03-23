@@ -7,8 +7,7 @@ jobs:
     name: set up enviroment
     runs-on: ubuntu-lastest
     steps:
-    - uses: actions/checkout@v2 # what kind of github action version to use
-    
+    - uses: actions/checkout@v2 # what kind of github action version to use    
     - name: Run my python
       run: |
         python3 test1.py
