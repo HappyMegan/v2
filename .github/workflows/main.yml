@@ -2,13 +2,12 @@ name: Run my python
 
 on: 
   push: # do this ever time
-
 jobs:
   build:
-  name: set up enviroment
-  run-on: ubuntu-lastest
-  steps:
-  - uses: action/checkout@v2
-  - name: Run my python
-    run: |
-      python3 test1.py
+    name: set up enviroment
+    run-on: ubuntu-lastest
+    steps:
+    - uses: action/checkout@v2
+    - name: Run my python
+      run: |
+        python3 test1.py
