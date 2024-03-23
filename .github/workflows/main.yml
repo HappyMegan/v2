@@ -3,7 +3,7 @@ name: Run my python
 on: 
   push: # do this ever time
   schedule:
-  - cron: "36 07 * * *"
+  - cron: "36 07 * * *" #07:36 ,0 0:00:00
 jobs:
   build:
     name: Set up environment
